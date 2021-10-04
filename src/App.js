@@ -2,15 +2,32 @@ import logo from './logo.svg';
 import './App.css';
 import {Route, Switch, withRouter} from 'react-router-dom'
 import {Header} from './Components/Header/Header'
+import {AboutReconstrucctionPage} from "./Components/AboutReconstruction/AboutReconstrucctionPage";
+import {SingleReconstruction} from "./Components/SingleReconstruction/SingleReconstruction";
+import {LogInPage} from "./Components/LogIn/LogInPage";
 
 function App() {
   return (
     <div className="App">
-        <Route path = '/' component={}>
+        <Switch>
+            <Route path = '/' exact component={Header}>
 
-        </Route>
+            </Route>
+        
+            <Route path = '/about-reconstruction' component = {AboutReconstrucctionPage}>
+            
+            </Route>
+
+            <Route path ='/single-reconstruction' component={SingleReconstruction}>
+
+            </Route>
+
+            <Route path = '/login' component={LogInPage}>
+
+            </Route>
+        </Switch>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
