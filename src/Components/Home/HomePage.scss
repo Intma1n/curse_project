@@ -1,0 +1,20 @@
+@import '../variables';
+
+.main{
+  background-color: #ff7e27;
+}
+.home-page{
+  background-image: url('../images/header_bg.png');
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.sample-text__header{
+  font-size: 36px;
+  color: $main-color;
+}
+.sample-text{
+  font-size: 18px;
+  color: $main-color;
+}

@@ -1,17 +1,39 @@
-.header{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import '../variables.scss';
+*{
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .list-item{
   display: flex;
   justify-content: space-between;
 }
 .list-item__single{
-  border: 1px solid black;
+  //border: 1px solid black;
   display: inline;
   list-style: none;
   text-decoration: none;
   padding: 10px;
   margin: 0;
+  color: $main-color;
+  font-size: 24px;
 }
 a{
   text-decoration: none;
+}
+a:visited{
+  color: $main-color;
+}
+
+.header-text{
+  padding: 0;
+  margin: 0;
+  display: inline;
+  justify-content: left;
+  font-size: 24px;
+  float: left;
+  color: $main-color;
+}
+.header{
+  background-color: #813601;
+  border: 1px solid $main-color;
 }

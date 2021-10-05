@@ -5,12 +5,13 @@ import {Header} from './Components/Header/Header'
 import {AboutReconstrucctionPage} from "./Components/AboutReconstruction/AboutReconstrucctionPage";
 import {SingleReconstruction} from "./Components/SingleReconstruction/SingleReconstruction";
 import {LogInPage} from "./Components/LogIn/LogInPage";
+import {HomePage} from "./Components/Home/HomePage";
 
 function App() {
   return (
     <div className="App">
         <Switch>
-            <Route path = '/' exact component={Header}>
+            <Route path = '/' exact component={HomePage}>
 
             </Route>
         
