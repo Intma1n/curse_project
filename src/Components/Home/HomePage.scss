@@ -1,8 +1,20 @@
 @import '../variables';
-
-.main{
-  background-color: #ff7e27;
+@keyframes kek {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+.main{
+  animation-duration: 3s;
+  animation-name: kek;
+  background-color: #ff7e27;
+  height: 100%;
+  transition: 600ms ease;
+}
+
 .home-page{
   background-image: url('../images/header_bg.png');
   height: 400px;
@@ -15,6 +27,16 @@
   color: $main-color;
 }
 .sample-text{
+  font-size: 18px;
+  color: $main-color;
+}
+
+.history-header{
+  font-size: 36px;
+  color: $main-color;
+}
+
+.history-text{
   font-size: 18px;
   color: $main-color;
 }
