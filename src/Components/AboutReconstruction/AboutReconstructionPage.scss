@@ -1,6 +1,31 @@
+@import '../variables';
+@keyframes kek {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.reconstructions-list{
+  animation-duration: 3s;
+  animation-name: kek;
+  transition: 600ms ease;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
 .reconstructions-list__item{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  height: 300px;
+  width: 300px;
   list-style-type: none;
   text-decoration: none;
   color: #282c34;
   font-size: 24px;
+  border: 1px solid black;
+  background-color: $bgc-color;
+  text-align: center;
 }

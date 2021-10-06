@@ -7,13 +7,38 @@ export function AboutReconstrucctionPage(){
     return(
         <div>
             <Header/>
-            <Link  to = {'/single-reconstruction'}>
+
                 <ul className='reconstructions-list'>
+
                 <li className='reconstructions-list__item'>
-                    Single reconstruction
+                    <Link  to = {'/single-reconstruction'}>
+                        Single reconstruction
+                    </Link>
                 </li>
+                    <li className='reconstructions-list__item'>
+                        <Link  to = {'/single-reconstruction'}>
+                            Single reconstruction
+                        </Link>
+                    </li>
+                    <li className='reconstructions-list__item'>
+                        <Link  to = {'/single-reconstruction'}>
+                            Single reconstruction
+                        </Link>
+                    </li>
+                    <li className='reconstructions-list__item'>
+                        <Link  to = {'/single-reconstruction'}>
+                            Single reconstruction
+                        </Link>
+                    </li>
+                    <li className='reconstructions-list__item'>
+                        <Link  to = {'/single-reconstruction'}>
+                            Single reconstruction
+                        </Link>
+                    </li>
+
+
                 </ul>
-            </Link>
+
         </div>
     )
 }
