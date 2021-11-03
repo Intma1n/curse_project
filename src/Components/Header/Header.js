@@ -17,11 +17,6 @@ export function Header(){
                     <Link to ={'/login'}>Войти</Link>
                 </li>
             </ul>
-
-
-
-
-
         </div>
     )
 }

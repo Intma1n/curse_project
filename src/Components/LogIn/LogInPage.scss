@@ -1,16 +1,49 @@
 @import '../variables';
+.log-in__page{
+  text-align: center;
+}
+.log-in__header{
+}
 .log-in__wrapper{
-
+  text-align: center;
 }
 .log-in{
+  display: inline-block;
+  text-align: center;
   padding: 0.5rem;
   margin: 0.5rem;
   height: 300px;
   width: 300px;
-  list-style-type: none;
-  text-decoration: none;
-  color: #282c34;
+  color: $main-color;
   font-size: 24px;
-  border: 1px solid black;
+  border: 1px solid $bgc-color;
   background-color: $bgc-color;
+}
+.log-in-form__wrapper{
+  padding: 5px;
+  margin: 5px;
+
+}
+.form{
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.input_name{
+  color:$main-color;
+  background-color: saddlebrown;
+}
+.input_surname{
+  color:$main-color;
+  background-color: saddlebrown;
+}
+.input_email{
+  color:$main-color;
+  background-color: saddlebrown;
+}
+.input_password{
+  color:$main-color;
+  background-color: saddlebrown;
 }

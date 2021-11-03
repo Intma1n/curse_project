@@ -1,6 +1,16 @@
 @import '../variables';
-
 .single_reconstruction{
-  border: 1px solid black;
-  color: #282c34;
+  color: $main-color;
+  background-color: $bgc-color;
+}
+.about-single-reconstruction__info{
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.about-single-reconstruction-info__header{
+  text-align: center;
+  margin: 10px;
+  font-size: 24px;
 }

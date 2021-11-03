@@ -25,18 +25,24 @@
 .sample-text__header{
   font-size: 36px;
   color: $main-color;
+  text-align: center;
 }
 .sample-text{
+  padding: 10px;
+  margin: 10px;
   font-size: 18px;
   color: $main-color;
 }
 
 .history-header{
+  text-align: center;
   font-size: 36px;
   color: $main-color;
 }
 
 .history-text{
+  padding: 10px;
+  margin: 10px;
   font-size: 18px;
   color: $main-color;
 }

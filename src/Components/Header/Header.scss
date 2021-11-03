@@ -4,11 +4,14 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 .list-items{
-  display: flex;
-  flex-direction: row;
-  text-align: center;
+  padding: 4px;
+  margin:.5rem 0 0 20rem;
+  flex-direction: column;
+  //text-align: center;
 }
 .list-item__single{
+  display: inline;
+  padding: 10px;
   //border: 1px solid black;
   list-style: none;
   text-decoration: none;
@@ -25,12 +28,13 @@ a:visited{
 .header-text{
   padding: 10px;
   margin: 0;
-  justify-content: left;
+  //justify-content: left;
   font-size: 24px;
-  float: left;
+  //float: left;
   color: $main-color;
 }
 .header{
+  display: flex;
   background-color: #813601;
   border: 1px solid #813601;
   height: 50px;
